@@ -1,0 +1,17 @@
+Oracle Enterprise Manager Database Express URL: https://localhost:5500/em
+# curl -o oracle-database-preinstall-19c-1.0-1.el7.x86_64.rpm https://yum.oracle.com/repo/OracleLinux/OL7/latest/x86_64/getPackage/oracle-database-preinstall-19c-1.0-1.el7.x86_64.rpm
+# yum -y localinstall oracle-database-preinstall-19c-1.0-1.el7.x86_64.rpm
+
+Error in invoking target 'libasmclntsh19.ohso libasmperl19.ohso client_sharedlib' of makefile
+
+export PATH=$PATH:/u01/app/oracle/product/19.3.0.0/db_1/bin
+
+./runInstaller -silent -detachHome -invPtrLoc /etc/oraInst.loc ORACLE_HOME="/u01/app/oracle/product/19.3.0.0/db_1"
+
+$ORACLE_HOME/oui/bin/runInstaller -silent -detachHome ORACLE_HOME="/u01/app/oracle/product/19.3.0.0/db_1" ORACLE_HOME_NAME="OraDB19Home1"
+
+/u01/app/oracle/product/12.1.0/db_1/javavm/jdk/jdk6/lib/libjavavm12.a ./u01/app/oracle/product/12.1.0/db_1/lib/
+
+change_
+
+North$amc12
