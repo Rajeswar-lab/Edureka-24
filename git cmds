@@ -1,0 +1,6 @@
+git cmds
+
+git stash
+git pop
+git drop
+git stash -p
